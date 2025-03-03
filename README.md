@@ -10,3 +10,55 @@ To install the modules, follow these steps:
 3. Update your profile script ($Profile) to import the modules using Import-Module StopFrameworkProject
 
 By following these steps, you can easily install and use these modules I've created.
+
+Examples:
+
+Command:
+```powershell
+Stop-Project
+```
+
+Output:
+```bash
+No TCP connections found on port 4200.
+```
+
+Command:
+```powershell
+Stop-AngularProject
+```
+
+Output:
+```bash
+No TCP connections found on port 4200.
+```
+
+Command:
+```powershell
+Stop-NextProject
+```
+
+Output:
+```bash
+No TCP connections found on port 300.
+```
+
+Command:
+```powershell
+Stop-ReactProject
+```
+
+Output:
+```bash
+No TCP connections found on port 5173.
+```
+
+Command:
+```powershell
+Stop-Project -Port 3001
+```
+
+Output:
+```bash
+No TCP connections found on port 3001.
+```
